@@ -1,0 +1,99 @@
+DataType: 
+Boolean: (true/fase, Space-->[bit: 0,1(byte 0, 1, 00000001), comiler specific ] )(bite : 0, 1)--> 0 Off/false/ 1 -oN/true, 
+Char: 2 byte, Unicodes--> 0-9,a0z, A-z, 4,%#%; ISO.ANSI, ASCII  A
+
+A  = 65  '\uxxxx---> x- "\u 0000'/'\u ffff' -4 bite
+x- 4bit(Hex)
+
+
+
+0   000001--> 1
+
+2 byte: 
+--00oo---- ffff
+
+ch1 3, ch2 4 -->
+
+16 bit  15 ->1111-->f 
+B  = 66
+C
+..
+Z= 91
+a = 98
+
+
+2 byte: 0000 0000 0000 0000 : 1111111111111111
+Unicode: As a hexadecimal present
+binary
+octal
+hexa decima
+0000 -1111(0 t0 15--f )
+0001
+0011
+000-111(0 7)
+16->2^4
+
+
+
+
+Variable: 
+Constant: 
+Keywords: 
+Naming Convensions  
+ - Class
+ - Variable
+ - Constatnt
+ - Interface
+Note: Java is pure object oriented programming/ Jvm is platform dependent
+Java Features
+ 1. Garbage collection:  automatically manages memory allocation and deallocation, (priority low), out of scop/unreachable
+ 2. Plateform Independent:  Java is platform independent/ JVM is platform dependent
+ 3. Object Oriented Programming
+ 4. Architectural Natural : it can run on any platform or operating system without requiring any changes to the codeit can ruatform or operating system without requiring any changes to the .
+ 5. Robust: the ability of the programming language to handle errors and unexpected situations, and to continue to run reliably (static typed, at compile tiem it will dicide memory allocation 
+
+compile-->Interpreter-Just In time 
+Some Important Terms/component
+Path: C:\Program Files\Java\jdk-17.0.5\bin
+Class Path: location where all class files reside
+
+
+javac Demo.java
+Demo.class--> Byte code(Compiled code)
+
+
+C:\Users\Dell\Documents\demo>javac Demo2.java
+Demo2.java:1: error: class Demo1 is public, should be declared in a file named Demo1.java
+public class Demo1{
+       ^
+1 error
+
+C:\Users\Dell\Documents\demo>javac Demo2.java
+
+C:\Users\Dell\Documents\demo>java 
+Error: Could not find or load main class Demo2
+Caused by: java.lang.ClassNotFoundException: Demo2
+
+C:\Users\Dell\Documents\demo>java Demo1
+Hello
+
+C:\Users\Dell\Documents\demo>
+
+JVM Java Veritual machine
+JRE: Java Run time Enviroment
+JDK/SKD: Java.Software Development Kit
+JIT: Just In Time  
+
+
+Some commands
+java -version
+javac : java compiler
+java : Java Interpreter 
+
+
+
+
+
+
+
+
